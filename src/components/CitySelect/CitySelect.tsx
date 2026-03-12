@@ -16,9 +16,9 @@ export function CitySelect() {
         { value: '2', label: 'Санкт-Петербург' },
       ]}
       value={city}
-      onChange={(value) => {
-  const cityValue = value as 'all' | '1' | '2';
-  dispatch(setCity(cityValue || 'all'));
+     onChange={(value) => {
+  const cityValue = value === '1' || value === '2' ? value : 'all';
+  dispatch(setCity(cityValue));
 }}
     />
   );
