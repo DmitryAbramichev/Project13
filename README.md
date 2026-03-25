@@ -1,1 +1,1 @@
-Сайт: project13-nine-peach.vercel.app
+Сайт: https://project13-nine-peach.vercel.app/
